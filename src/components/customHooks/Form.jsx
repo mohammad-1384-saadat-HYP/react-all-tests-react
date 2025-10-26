@@ -28,7 +28,7 @@ const Form = () => {
             <div>
                 <label htmlFor="email">Email address</label>
                 {/*مورد ابتدایی*/}
-                {/*<input value={data.email} onChange={handleChange} type="email" id="email" autoComplete="autocomplete"/>*/}
+                {/*<input value={data.email} onChange={e=>setEmail(e.target.value)} type="email" id="email" autoComplete="autocomplete"/>*/}
 
                 {/*یکم بهینه تر*/}
                 {/*<input value={data.email} onChange={handleChange} type="email" id="email" autoComplete="autocomplete"/>*/}
@@ -39,7 +39,7 @@ const Form = () => {
             <div>
                 <label htmlFor="password">Password</label>
                 {/*مورد ابتدایی*/}
-                {/*<input value={data.password} onChange={handleChange} type="password" id="password"*/}
+                {/*<input value={data.password} onChange={e=>setPassword(e.target.value)} type="password" id="password"*/}
                 {/*       autoComplete="autocomplete"/>*/}
 
                 {/*یکم بهینه تر*/}
