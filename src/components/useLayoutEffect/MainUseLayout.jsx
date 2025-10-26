@@ -7,6 +7,7 @@ const MainUseLayout = () => {
         console.log("useEffect");
     }, []);
 
+    // این async نیست
     useLayoutEffect(() => {
         setCounter(prevState => prevState + 1)
         console.log("useLayout");
