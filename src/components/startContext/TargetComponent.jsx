@@ -1,8 +1,8 @@
 import React, {useContext} from 'react';
-import AuthContext from "./AuthContext.js";
+import {useAuthState} from "./AuthContext.js";
 
 const TargetComponent = () => {
-    const userData = useContext(AuthContext);
+    const userData = useContext(useAuthState);
 
     return (
         <div>
