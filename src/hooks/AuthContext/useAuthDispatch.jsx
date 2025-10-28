@@ -1,6 +1,7 @@
 import {useContext} from "react";
+import {AuthContextDispatch} from "../../contexts/contextRelated/AuthContexts.jsx";
 
-export const useAuthDispatch = (AuthContextDispatch) => {
+export const useAuthDispatch = () => {
     const context = useContext(AuthContextDispatch);
 
     if (!context) {

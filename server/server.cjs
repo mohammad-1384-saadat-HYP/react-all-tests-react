@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const port = 3001
+const port = 8001
 const token = '7learn'
 
 const app = express()
