@@ -8,7 +8,9 @@ import DashboardPage from "./components/contextRelated/DashboardPage.jsx";
 import {useAuthState} from "./hooks/AuthContext/useAuthState.jsx";
 
 const App = () => {
-    const state = useAuthState();
+    // const state = useAuthState();
+    // const env = import.meta.env.VITE_MY_API_KEY;
+    // console.log(env)
 
     return (
         <>
@@ -16,7 +18,7 @@ const App = () => {
             {/*<Form/>*/}
             {/*<MainUseLayout/>*/}
             {/*<MainUniqueKey/>*/}
-            {state.token ? <DashboardPage/> : <LoginPage/>}
+            {/*{state.token ? <DashboardPage/> : <LoginPage/>}*/}
         </>
     );
 };
