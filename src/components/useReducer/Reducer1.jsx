@@ -24,7 +24,7 @@ const reducer = (state, action) => {
     }
 }
 
-const Component = () => {
+const Reducer1 = () => {
     const [state, dispatch] = useReducer(reducer, initialState);
 
     const increment = () => {
@@ -44,4 +44,4 @@ const Component = () => {
     );
 };
 
-export default Component
+export default Reducer1

@@ -4,8 +4,8 @@ import Form from "./components/customHooks/Form.jsx";
 import MainUseLayout from "./components/useLayoutEffect/MainUseLayout.jsx";
 import MainUniqueKey from "./components/createUniqueKey/MainUniqueKey.jsx";
 import {jsonPlaceHolder} from "./services/axiosService/api.js";
-import Component from "./components/useReducer/Component.jsx";
-import Component2 from "./components/useReducer/Component2.jsx";
+import Reducer1 from "./components/useReducer/Reducer1.jsx";
+import Reducer2 from "./components/useReducer/Reducer2.jsx";
 
 const App = () => {
     // const state = useAuthState();
@@ -31,8 +31,8 @@ const App = () => {
             {/*<MainUseLayout/>*/}
             {/*<MainUniqueKey/>*/}
             {/*{state.token ? <DashboardPage/> : <LoginPage/>}*/}
-            {/*<Component/>*/}
-            {/*<Component2/>*/}
+            {/*<Reducer1/>*/}
+            {/*<Reducer2/>*/}
         </>
     );
 };

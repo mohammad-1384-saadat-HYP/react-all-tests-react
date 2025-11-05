@@ -22,7 +22,7 @@ const reducer = (todos, action) => {
     }
 }
 
-const Component2 = () => {
+const Reducer2 = () => {
     const [name, setName] = useState("");
     const [todos, dispatch] = useReducer(reducer, []);
 
@@ -45,4 +45,4 @@ const Component2 = () => {
     );
 };
 
-export default Component2
+export default Reducer2
