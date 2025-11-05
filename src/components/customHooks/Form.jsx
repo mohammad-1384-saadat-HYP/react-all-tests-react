@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import useHandleForm from "../../hooks/useHandleForm.jsx";
+import useHandleForm from "./useHandleForm.jsx";
 
 const Form = () => {
 
