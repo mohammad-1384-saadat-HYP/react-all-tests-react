@@ -5,7 +5,6 @@ import MainUseLayout from "./components/useLayoutEffect/MainUseLayout.jsx";
 import MainUniqueKey from "./components/createUniqueKey/MainUniqueKey.jsx";
 import Reducer1 from "./components/useReducer/Reducer1.jsx";
 import Reducer2 from "./components/useReducer/Reducer2.jsx";
-import TestComponentParent from "./components/context/TestComponentParent.jsx";
 
 const App = () => {
     return (
@@ -17,7 +16,6 @@ const App = () => {
             {/*{state.token ? <DashboardPage/> : <LoginPage/>}*/}
             {/*<Reducer1/>*/}
             {/*<Reducer2/>*/}
-            <TestComponentParent/>
         </>
     );
 };
