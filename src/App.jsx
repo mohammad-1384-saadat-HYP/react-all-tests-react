@@ -17,7 +17,7 @@ const App = () => {
             {/*{state.token ? <DashboardPage/> : <LoginPage/>}*/}
             {/*<Reducer1/>*/}
             {/*<Reducer2/>*/}
-            <AuthContextParent/>
+            {/*<AuthContextParent/>*/}
         </>
     );
 };
